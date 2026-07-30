@@ -1,7 +1,18 @@
 aid: lollipuff
 name: Lollipuff
-description: Lollipuff is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lollipuff is a luxury goods authentication service that has been authenticating
+  high-end designer apparel and accessories professionally since 2010. Led by CEO
+  Fei Deyle, the company uses a patent-pending process combining human expert
+  authenticators with software to determine the authenticity of pre-owned designer
+  items from submitted photographs, issuing an online certificate with a unique,
+  shareable URL that owners can post alongside listings on sites like eBay. Lollipuff
+  (YC W13) originally operated as a peer-to-peer online auction marketplace that
+  pre-screened every listing for authenticity; the marketplace closed in 2020 as
+  payment-processor fee structures changed, and the company now focuses on its
+  photo-based authentication and certificate-lookup service, which many consignment
+  and resale businesses rely on for their most challenging authentications. It is a
+  consumer-facing web service with no publicly documented developer API.
 url: https://raw.githubusercontent.com/api-evangelist/lollipuff/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,53 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.lollipuff.com/favicon.ico
 tags:
 - Company
+- Authentication
+- Luxury Goods
+- Designer Fashion
+- Resale
+- Marketplace
+- Ecommerce
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.lollipuff.com/
+- type: About
+  url: https://www.lollipuff.com/about/
+- type: Blog
+  url: https://www.lollipuff.com/blog/
+- type: Support
+  url: https://www.lollipuff.com/contact/
+- type: TermsOfService
+  url: https://www.lollipuff.com/terms/
+- type: PrivacyPolicy
+  url: https://www.lollipuff.com/privacy/
+- type: DomainSecurity
+  url: security/lollipuff-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
